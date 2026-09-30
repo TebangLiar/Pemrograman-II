@@ -8,7 +8,6 @@ public class PRAK101_2510817110004_AhmadRiyadhi {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        // TODO: Tambahkan input sesuai urutannya di Lembar Kerja Praktikum
         System.out.print("Masukkan Nama Lengkap: ");
         String name = input.nextLine();
 
@@ -33,7 +32,6 @@ public class PRAK101_2510817110004_AhmadRiyadhi {
         String monthName = switch (month) {
             case 1 -> "Januari";
             case 2 -> "Februari";
-            // TODO: Lengkapi nama bulan
             case 3 -> "Maret";
             case 4 -> "April";
             case 5 -> "Mei";
@@ -47,7 +45,6 @@ public class PRAK101_2510817110004_AhmadRiyadhi {
             default -> "Bulan invalid";
         };
 
-        // TODO: Tampilkan output sesuai Lembar Kerja Praktikum
         System.out.println("Nama Lengkap " + name + ", Lahir di " + Place + " pada Tanggal " + Date + " " + monthName + " " + Year + " Tinggi Badan " + height + " cm dan Berat Badan " + weight + " kilogram");
     }
 }
